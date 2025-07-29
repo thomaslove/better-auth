@@ -21,6 +21,7 @@ import { tiktok } from "./tiktok";
 import { reddit } from "./reddit";
 import { roblox } from "./roblox";
 import { vk } from "./vk";
+import { wildapricot } from "./wildapricot";
 import { zoom } from "./zoom";
 export const socialProviders = {
 	apple,
@@ -43,6 +44,7 @@ export const socialProviders = {
 	reddit,
 	roblox,
 	vk,
+	wildapricot,
 	zoom,
 	notion,
 };
@@ -86,6 +88,7 @@ export * from "./tiktok";
 export * from "./twitch";
 export * from "./twitter";
 export * from "./vk";
+export * from "./wildapricot";
 export * from "./zoom";
 export * from "./kick";
 export * from "./huggingface";
